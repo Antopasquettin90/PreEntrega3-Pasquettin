@@ -1,15 +1,25 @@
-body {
-    background-color: #070024 !important;
+$color-titulos:rgba(218, 29, 29, 0.836);
+$color-letras:white;
+$color-subtitulos:blue;
+$color-fondo:#070024;
 
+body {
+    background-color: $color-fondo !important;
 }
-.custom-element {
-    color: $primary rgb(235, 213, 17);
-    background-image:none;
-  }
 
 .img {
     border-radius: 100% !important;
 }
+.titulos{
+    color:$color-titulos
+}
+.subtitulos{
+    color:$color-subtitulos
+}
+.letras{
+    color:$color-letras
+}
+
 .carrusel-modificado{
     width: 50%;
     height: 100%;
