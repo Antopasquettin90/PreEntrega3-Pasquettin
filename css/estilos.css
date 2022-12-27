@@ -5,22 +5,39 @@ body {
   border-radius: 100% !important; }
 
 .titulos {
-  color: rgba(218, 29, 29, 0.836); }
+  color: rgba(218, 29, 29, 0.836);
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 30px; }
 
 .subtitulos {
-  color: blue; }
+  color: #fa5555;
+  margin-top: 50px;
+  font-weight: bold; }
+
+.subtitulos1 {
+  color: #fa5555;
+  font-weight: bold; }
 
 .letras {
   color: white; }
 
 .carrusel-modificado {
-  width: 50%;
+  width: 60%;
   height: 100%;
-  margin-left: 25%;
+  margin-left: 20%;
+  margin-top: 20px;
   position: absolute; }
 
 .centrar-cards {
   margin-left: 10%; }
+
+.dimensiones-footer {
+  margin-top: 30px;
+  margin-bottom: 50px; }
+
+.mover-imagenes {
+  margin-top: 40px !important; }
 
 h2 {
   color: white; }
