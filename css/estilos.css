@@ -118,7 +118,7 @@ h2 {
     -webkit-transform: scale3d(1, 1, 1);
     transform: scale3d(1, 1, 1); } }
 
-/*para boton*/
+/*para Carta*/
 .vibrate-1 {
   -webkit-animation: vibrate-1 0.5s NaNs infinite ninguna;
   animation: vibrate-1 0.5s NaNs infinite ninguna; }

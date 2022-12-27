@@ -2,6 +2,10 @@ body {
     background-color: #070024 !important;
 
 }
+.custom-element {
+    color: $primary rgb(235, 213, 17);
+    background-image:none;
+  }
 
 .img {
     border-radius: 100% !important;
@@ -11,7 +15,7 @@ body {
     height: 100%;
     margin-left: 25%;
     position: absolute;
-}
+   }
 .centrar-cards{
     margin-left: 10%;
 }
@@ -162,7 +166,7 @@ h2 {
     }
 }
 
-/*para boton*/
+/*para Carta*/
 .vibrate-1 {
     -webkit-animation: vibrate-1 0.5s NaNs infinite ninguna;
     animation: vibrate-1 0.5s NaNs infinite ninguna;
@@ -792,11 +796,4 @@ video {
   opacity: 0.9;
 
 }
-$grid-breakpoints: (
-  xs: 0,
-  sm: 576px,
-  md: 768px,
-  lg: 992px,
-  xl: 1200px,
-  xxl: 1400px
-)
+
