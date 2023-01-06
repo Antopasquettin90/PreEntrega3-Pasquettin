@@ -24,23 +24,41 @@
   </head>
 
   <body>
-    <nav
-      class="fondo navbar navbar-expand-lg navbar-light bg-light slide-in-top"
-    >
-      <img
-        class="img"
-        src="imagenes/logo-25a.jpeg"
-        width="100px"
-        height="100px"
-      >
-      <div class="container bg-dark p-4">    
-        <a class="navbar-brand text-white h4" href="index.html">Inicio</a>
-        <a class="navbar-brand text-white h4" href="proximos-eventos.html">Proximos eventos</a>
-        <a class="navbar-brand text-white h4" href="imagenes.html"> Imagenes</a>
-        <a class="navbar-brand text-white h4"href="la-empresa.html">El Bar</a>
-        <a class="navbar-brand text-white h4" href="contactos.html">Contacto</a>
+    <nav class="navbar-expand-lg navbar navbar-dark text-end">
+      <div class="container letras">
+        <img class="img" src="imagenes/logo-25a.jpeg"
+            width="100px" height="100px">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item letras">
+              <a class="nav-link letras" href="proximos-eventos.html">Proximos Eventos</a>
+            </li>
+            <li class="nav-item letras">
+              <a class="nav-link letras" href="imagenes.html">Imagenes</a>
+            </li>
+            <li class="nav-item dropdown text-white">
+              <a class="nav-link dropdown-toggle" href="la-empresa.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                El Bar
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item letras" href="la-empresa.html">Sobre Nosotros</a></li>
+                <li><a class="dropdown-item letras" href="https://www.menudigital.com/restaurante/quijote-bar">Nuestra Carta</a></li>
+                <li><hr class="dropdown-divider letras"></li>
+                <li><a class="dropdown-item letras" href="contactos.html">Contactos</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link letras" href="contactos.html">Contactos</a>
+            </li>
+          </ul>
+        </div>
       </div>
-
     </nav>
     <div class="tracking-in-contract">
       <h2 class="titulos text-center">Imagenes</h2>

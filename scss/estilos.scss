@@ -2,9 +2,14 @@ $color-titulos:rgba(218, 29, 29, 0.836);
 $color-letras:white;
 $color-subtitulos:rgb(250, 85, 85);
 $color-fondo:#070024;
+$color-nav-footer:rgb(24, 23, 23);
 
 body {
     background-color: $color-fondo !important;
+}
+footer {
+    background-color: $color-nav-footer !important;
+    color: $color-letras;
 }
 
 .img {
@@ -807,29 +812,71 @@ h2 {
 }
 
 #hero {
-  min-height: 100vh;
-  position: relative;
-  top: 120px;
-  z-index: 1;
+  min-height: 100vh !important;
+  position: relative !important;
+  top: 50px !important;
+  z-index: 1 !important;
 }
 
 video {
- position:absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+ position:absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  object-fit:cover !important;
 
 }
 
 .capa {
-  top: 0%;
-  left: 0%;
-  width: 100%;
-  height: 100%;
-  mix-blend-mode: overlay;
-  opacity: 0.9;
+  top: 0% !important;
+  left: 0% !important;
+  width: 100% !important;
+  height: 100% !important;
+  mix-blend-mode: overlay !important;
+  opacity: 0.9 !important;
 
 }
 
+.separar{
+    margin-top: 80px !important;
+}
+/*PARA H1 INDEX*/
+.tracking-in-contract-bck-top {
+	-webkit-animation: tracking-in-contract-bck-top 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-contract-bck-top 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+ @-webkit-keyframes tracking-in-contract-bck-top {
+    0% {
+      letter-spacing: 1em;
+      -webkit-transform: translateZ(400px) translateY(-300px);
+              transform: translateZ(400px) translateY(-300px);
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      -webkit-transform: translateZ(0) translateY(0);
+              transform: translateZ(0) translateY(0);
+      opacity: 1;
+    }
+  }
+  @keyframes tracking-in-contract-bck-top {
+    0% {
+      letter-spacing: 1em;
+      -webkit-transform: translateZ(400px) translateY(-300px);
+              transform: translateZ(400px) translateY(-300px);
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      -webkit-transform: translateZ(0) translateY(0);
+              transform: translateZ(0) translateY(0);
+      opacity: 1;
+    }
+  }
+  

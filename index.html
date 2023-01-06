@@ -23,30 +23,101 @@
   ></script>
   </head>
     <body>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light slide-in-top">
-        <img src="imagenes/logo-25a.jpeg" class="img"
-      width="100px" height="100px">
-        <div class="container bg-dark p-4">
-        <a class="navbar-brand text-white h4" href="index.html">Inicio</a>
-        <a class="navbar-brand text-white h4"href="proximos-eventos.html">Proximos eventos</a>
-        <a class="navbar-brand text-white h4"href="imagenes.html"> Imagenes</a>
-        <a class="navbar-brand text-white h4"href="la-empresa.html">El Bar</a>
-        <a class="navbar-brand text-white h4"href="contactos.html">Contacto</a>
-      </div>
+      <nav class="navbar-expand-lg navbar navbar-dark text-end">
+        <div class="container letras">
+          <img class="img" src="imagenes/logo-25a.jpeg"
+              width="100px" height="100px">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item letras">
+                <a class="nav-link letras" href="proximos-eventos.html">Proximos Eventos</a>
+              </li>
+              <li class="nav-item letras">
+                <a class="nav-link letras" href="imagenes.html">Imagenes</a>
+              </li>
+              <li class="nav-item dropdown text-white">
+                <a class="nav-link dropdown-toggle" href="la-empresa.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  El Bar
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item letras" href="la-empresa.html">Sobre Nosotros</a></li>
+                  <li><a class="dropdown-item letras" href="https://www.menudigital.com/restaurante/quijote-bar">Nuestra Carta</a></li>
+                  <li><hr class="dropdown-divider letras"></li>
+                  <li><a class="dropdown-item letras" href="contactos.html">Contactos</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link letras" href="contactos.html">Contactos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </nav>
-
+<h1 class="text-white text-center tracking-in-contract-bck-top">BIENVENIDOS</h1>
   <main id="hero">
       <div class="capa">
     <video muted autoplay loop>
       <source src="imagenes/tomorrowland-comprimido.mp4" type="video/mp4"> 
     </video> 
     </main>
-     
-    <div class="container-fluid text-center bg-dark">
-      <div class="row align-items-start text-white h3">
-        <div class="col">
-          <p>Todos los derechos reservados </p>
-        </div>   
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-  </body>
+    <section class="text-flicker-out-glow separar">
+      <h2 class="titulos text-center separar">Proximos Eventos</h2>
+    </section>
+    <div class="row row-cols-3 mover-imagenes">
+     <div class="card centrar-cards" style="width: 18rem;">
+      <img src="imagenes/quijote-nuevo.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title h5 text-primary">Re-Inauguración</h5>
+        <a href="#" class="btn btn-danger">COMPRA TU ENTRADA</a>
+      </div>
+    </div>
+    <div class="card centrar-cards" style="width: 18rem;">
+      <img src="imagenes/quijote-neon.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title h5 text-primary">Sabado 21/01/2023 </h5>
+        <a href="#" class="btn btn-danger">COMPRA TU ENTRADA</a>
+      </div>
+    </div>
+    <div class="card centrar-cards" style="width: 18rem;">
+      <img src="imagenes/quijote-azul.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title h5 text-primary">Sabado 04/02/2023 </h5>
+        <a href="#" class="btn btn-danger">COMPRA TU ENTRADA</a>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid text-center bg-dark dimensiones-footer">
+    <div class="row align-items-start text-white h3">
+      <div class="col m-5">
+        <p>Todos los derechos reservados </p>
+      </div>
+      <div class="col m-5">
+        <a
+        href="https://www.instagram.com/quijotedisco/"
+        class="fa-brands fa-instagram h3 text-decoration text-white"
+      ></a>  
+   
+      <a
+        href="https://twitter.com/QuijoteDiscoBar"
+        class="fa-brands fa-twitter text-decoration h3 text-white"
+      ></a>
+    
+      <a
+        href="https://www.facebook.com/quijotedisco"
+        class="fa-brands fa-facebook text-decoration h3 text-white"
+      ></a>
+  
+      <a
+        href="..."
+        class="fa-brands fa-whatsapp text-decoration h3 text-white"
+      ></a>
+      </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
 </html>
