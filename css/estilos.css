@@ -34,13 +34,22 @@ body {
 
 .dimensiones-footer {
   margin-top: 30px;
-  margin-bottom: 50px; }
+  margin-bottom: 50px;
+  display: cover; }
 
 .mover-imagenes {
   margin-top: 40px !important; }
 
 h2 {
   color: white; }
+
+.fondo-contactos {
+  background-color: #64646441 !important;
+  width: 100%; }
+
+.footer {
+  width: 100% !important;
+  height: 100% !important; }
 
 /*Para index*/
 .slide-in-top {
