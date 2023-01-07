@@ -16,7 +16,12 @@ nav :hover {
   color: rgba(177, 2, 2, 0.904) !important; }
 
 .tamaños-titulos-grandes {
-  font-size: 80px !important; }
+  font-size: 80px !important;
+  border-color: white !important; }
+
+.tamaños-titulos-reserva {
+  font-size: 60px !important;
+  border-color: white !important; }
 
 .tamaños-letras-grandes {
   font-size: 45px; }
