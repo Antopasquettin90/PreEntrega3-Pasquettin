@@ -19,13 +19,16 @@ nav :hover {
   font-size: 80px !important; }
 
 .tamaños-letras-grandes {
-  font-size: 40px; }
+  font-size: 45px; }
 
 .tamaños-letras-chicas {
-  font-size: 25px; }
+  font-size: 30px; }
 
 .separar {
   margin-top: 80px !important; }
+
+.color-subtitulos {
+  color: rgba(177, 2, 2, 0.904) !important; }
 
 .color-boton {
   background-color: rgba(177, 2, 2, 0.904) !important;

@@ -26,15 +26,17 @@ nav :hover{
   font-size: 80px !important;
 }
 .tamaños-letras-grandes {
-  font-size: 40px;
+  font-size: 45px;
 }
 .tamaños-letras-chicas {
-  font-size: 25px;
+  font-size: 30px;
 }
 .separar {
   margin-top: 80px !important;
 }
-
+.color-subtitulos{
+    color: $color-boton !important;
+}
 .color-boton {
   background-color: $color-boton !important;
   color: white !important;
